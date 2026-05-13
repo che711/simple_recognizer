@@ -1,0 +1,28 @@
+# images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+*.svg
+
+# folders
+images/
+
+# secrets, env vars
+.env
+.env.local
+.env.*
+!.env.example 
+
+# envs
+venv/
+.venv/
+.ocrenv/
+
+# IDE settings
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
